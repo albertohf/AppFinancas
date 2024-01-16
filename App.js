@@ -1,12 +1,13 @@
 import 'react-native-reanimated'
 import 'react-native-gesture-handler'
-import Home from './src/pages/Home'
+import { NavigationContainer } from '@react-navigation/native';
+import { Routes } from './src/routes'
 
 
 export default function App() {
   return (
-    <>
-      <Home />
-    </>
+    <NavigationContainer>
+      <Routes />
+    </NavigationContainer>
   );
 }

@@ -25,6 +25,13 @@ const list = [{
   date: '27/07/2022',
   type: 1 // receita
 },
+{
+  id: 4,
+  label: 'Pix Enviado',
+  value: '1700,00',
+  date: '27/07/2022',
+  type: 0 // despesa
+},
 ]
 
 export default function Home() {
